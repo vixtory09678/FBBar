@@ -81,6 +81,7 @@ void writeOutputById(String id)
 {
   int idOutput = id.toInt();
   if (idOutput > 10 && idOutput < 1)
+  
     return;
 
   digitalWrite(listPin[idOutput - 1], HIGH);
